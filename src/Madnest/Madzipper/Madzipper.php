@@ -62,12 +62,12 @@ class Madzipper
     /**
      * Destructor
      */
-    public function __destruct()
+    /*public function __destruct()
     {
         if (is_object($this->repository)) {
             $this->repository->close();
         }
-    }
+    }*/
 
     /**
      * Create a new zip Archive if the file does not exists
